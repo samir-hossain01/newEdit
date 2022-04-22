@@ -1,0 +1,184 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap");
+@font-face {
+  font-family: Hagin-Font-Medium;
+  src: url(./fonts/Hagin\ Caps\ Medium.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Hagin-Font-Medium;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+.saira-font {
+  font-family: "Saira Condensed", sans-serif;
+}
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  padding: 0 0px;
+}
+
+.section-title h2 {
+  font-size: 35px;
+  font-family: Hagin-Font-Medium;
+  display: inline-block;
+  letter-spacing: 1px;
+  text-align: left;
+  /* text-shadow: 6px 1px 30px #1e7be0, 1px 2px 22px #92f4af; */
+  color: white;
+  background: rgb(17, 124, 217);
+  background: linear-gradient(
+    90deg,
+    rgba(17, 124, 217, 1) 0%,
+    rgba(54, 69, 79, 0.88) 0%,
+    rgba(153, 163, 50, 0.83) 100%,
+    rgba(153, 163, 50, 1) 100%,
+    rgba(0, 120, 158, 1) 100%,
+    rgba(0, 154, 194, 1) 100%
+  );
+  padding: 15px 30px;
+  border-radius: 8px;
+  margin: 50px 0px;
+  font-weight: 500;
+}
+@media (max-width: 375px) {
+  .section-title h2 {
+    font-size: 33px;
+  }
+}
+.section-title p {
+  text-align: center;
+}
+
+.app_component {
+  overflow: hidden;
+  width: 100%;
+}
+
+.btn {
+  border: 2px solid transparent;
+  padding: 16px 28px;
+  font-size: 18px;
+  text-transform: uppercase;
+  background: rgb(17, 124, 217);
+  background: linear-gradient(
+    90deg,
+    rgba(17, 124, 217, 1) 0%,
+    rgba(224, 149, 0, 1) 0%,
+    rgba(11, 103, 63, 1) 100%,
+    rgba(153, 163, 50, 1) 100%,
+    rgba(0, 120, 158, 1) 100%,
+    rgba(0, 154, 194, 1) 100%
+  );
+  border: 0;
+  outline: none;
+  color: white;
+  font-weight: 700;
+  transition: 0.3s ease;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (max-width: 988px) {
+  .section-title h2 {
+    font-size: 22px;
+  }
+}
